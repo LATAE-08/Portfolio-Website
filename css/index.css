@@ -178,3 +178,95 @@ header {
   box-shadow: 0 0 40px rgba(0, 140, 255, 0.4);
   box-shadow: 0 0 40px rgba(162, 0, 255, 0.4);
 }
+
+
+/* =========================
+   Responsive: Tablet
+========================= */
+
+@media screen and (max-width: 1024px) {
+
+    .welcome {
+        font-size: 35px;
+    }
+
+    .web {
+        font-size: 60px;
+    }
+
+    .index-box h1 {
+        padding: 20px;
+        gap: 15px;
+    }
+
+}
+
+
+/* =========================
+   Responsive: Mobile
+========================= */
+
+@media screen and (max-width: 768px) {
+
+    header {
+        min-height: 100svh;
+        height: auto;
+        padding: 30px 15px;
+        box-sizing: border-box;
+    }
+
+    .index-box {
+        width: 100%;
+        text-align: center;
+    }
+
+    .index-box h1 {
+        width: 100%;
+        box-sizing: border-box;
+        padding: 15px 5px;
+        margin-bottom: 10px;
+        gap: 15px;
+    }
+
+    .welcome {
+        font-size: clamp(24px, 5vw, 32px);
+    }
+
+    .web {
+        font-size: clamp(36px, 8.5vw, 55px);
+    }
+
+    .index-btn {
+        margin-top: 30px;
+        padding: 13px 25px;
+        font-size: 15px;
+    }
+
+}
+
+
+/* =========================
+   Responsive: Small Mobile
+========================= */
+
+@media screen and (max-width: 480px) {
+
+    .welcome {
+        font-size: 23px;
+    }
+
+    .web {
+        font-size: clamp(30px, 8.5vw, 40px);
+    }
+
+    .index-box h1 {
+        gap: 12px;
+    }
+
+    .index-btn {
+        margin-top: 25px;
+        padding: 12px 22px;
+        font-size: 14px;
+    }
+
+}
